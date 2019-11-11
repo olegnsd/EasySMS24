@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+Options All -Indexes
+RewriteEngine on 
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^lk$ lk.php [L,QSA]
+RewriteRule ^pay$ pay.php [L,QSA]
+RewriteRule ^p/(.*)$ index.php?ref=$1 [L,QSA]
+RewriteRule ^partner$ referal.php [L,QSA]
+RewriteRule ^docs$ docs.php?page=docs [L,QSA]
+RewriteRule ^docs/php$ docs.php?page=php [L,QSA]
+RewriteRule ^contacts$ contacts.php [L,QSA]
+RewriteRule ^pay/(.*)$ pay.php?phone=$1 [L,QSA]
+
+AddDefaultCharset UTF-8

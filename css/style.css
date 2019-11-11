@@ -1,0 +1,32 @@
+#menu{position:static;margin-bottom:30px;}
+#secondaryMenu .container{padding:0;}
+
+.smsprices{text-align:right;}.smsprice span{display:none;}
+.smsprice {font-size:20px;line-height:28px;padding:1px 10px 2px 10px;margin-top:3px;}
+.smsprices .active{    display: inline-block;    background: #03a9f4;    color: white;    border-radius: 5px;font-weight:bold;font-size:25px;line-height:28px;}
+.smsprices .active span{display:inline;font-size:15px!important;}
+.smsprices i{display: block;font-size:10px;line-height: 10px;}
+
+.ui-widget.ui-widget-content {    margin: 23px 0px;
+    border: 1px solid #03a9f4;
+    background: #03a9f4;}
+.ui-state-default, .ui-widget-content .ui-state-default{
+    border: 1px solid #303030!important;
+    background: #5cb85c!important;
+    height: 2em!important;
+    top: -0.7em!important;
+}
+
+.ui-state-active{background:#5e9a5e!important;}
+
+.land1{    background: url(../bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -65px;
+    padding-top: 65px;}
+.service-item-icon i{font-size: 40px;
+    color: #03a9f4;}
+
+a.list-group-item, button.list-group-item {
+    color: #555;
+}
